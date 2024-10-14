@@ -14,6 +14,8 @@ class Employe {
         $this -> prenom = $prenom;
         $this -> email = $email;
         $this -> entreprise = $entreprise;
+        $this -> entreprise-> addEmploye($this);// cette entreprise doit rajouter l'employé
+        // que je suis entrain de construir
 
 
 }
